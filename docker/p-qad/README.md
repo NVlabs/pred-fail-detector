@@ -6,11 +6,6 @@ This repository contains code for the following paper: https://arxiv.org/pdf/220
 
 ## Installation
 
-Clone the submodules as well when cloning the repository:
-```
-git clone --recurse-submodules <repository cloning URL>
-```
-
 There are two ways to use the code, one is by creating a docker image and the other is installation from source. The docker image is recommended and will require less manual setup.
 
 ### Docker Image (easier)
@@ -34,7 +29,6 @@ There are two ways to use the code, one is by creating a docker image and the ot
     - Comment out L33 of `StatsCalculator.py`
 - Clone [hj reachability code](https://github.com/StanfordASL/hj_reachability/tree/main/hj_reachability) into `./detection`
 - Make directory `target_values` in `./detection` and `saves` in `./` and `./nuPlan`
-- Downgrade `shapely` to `1.8.2`: `pip install shapely==1.8.2`
 
 
 ## Setting up Data

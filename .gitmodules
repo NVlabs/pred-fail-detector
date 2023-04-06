@@ -1,0 +1,3 @@
+[submodule "nuScenes/process_data/devkit"]
+	path = nuScenes/process_data/devkit
+	url = https://github.com/nutonomy/nuscenes-devkit.git
