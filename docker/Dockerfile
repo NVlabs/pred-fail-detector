@@ -51,6 +51,7 @@ WORKDIR nuplan-devkit
 RUN git checkout 3c4f5b8dcd517b27cfd258915ca5fe5c54e3cb0c
 RUN sed -i "s|torch==|#torch==|g" requirements.txt && sed -i "s|torchvision==|#torchvision==|g" requirements.txt
 RUN pip install -e .
+RUN pip install protobuf==3.20.0
 
 # install rewards deterioration detection
 WORKDIR /home/p-qad/p-qad
