@@ -40,7 +40,7 @@ CMD source ~/.bashrc
 RUN conda install python=3.9
 
 # install pytorch and other things
-RUN conda install pytorch=1.9.0 torchvision=0.2.2 torchaudio=0.9.0 cudatoolkit=10.2 -c pytorch -y
+RUN conda install pytorch=1.9.0 torchvision=0.10.0 torchaudio=0.9.0 cudatoolkit=10.2 -c pytorch -y
 RUN pip install torchmetrics==0.6.0
 RUN conda install -c conda-forge firefox geckodriver
 
