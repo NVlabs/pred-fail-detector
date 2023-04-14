@@ -138,6 +138,6 @@ We have provided `.npy` files in the `./saves/` folder from our runs that were u
 - `./trajectron/`: Trajectron++ source code
 - `adav.yml`: YML file for checking installation and debugging
 
-## Licence
+## License
 
 The source code is released under the [NSCL licence](https://github.com/NVlabs/pred-fail-detector/blob/main/LICENSE.md). The preprocessed dataset and pretrained models are under the [CC BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
