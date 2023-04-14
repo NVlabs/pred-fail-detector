@@ -56,7 +56,6 @@ Process the dataset on the host as explained here. If using docker, then mount i
 2. nuPlan data
     - Download Maps and Metadata for all splits (v0.2) from [nuScenes.org](https://www.nuscenes.org/nuplan#download)
     - Place `.db` file and `maps` folder into a folder `./nuPlan/dataset/`
-    - Place [nuplan-devik repo](https://github.com/motional/nuplan-devkit) into folder `./nuPlan/`
 
 Template command for mounting the data as a volume on the docker image:
 ```
