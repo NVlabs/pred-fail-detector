@@ -68,7 +68,7 @@ docker run \
   /bin/bash
 ```
 
-If building from source, then place the processed in the approriate path
+If building from source, then place the data in the approriate path as described in the file structure below.
 
 
 ## Instructions for reproducing results
