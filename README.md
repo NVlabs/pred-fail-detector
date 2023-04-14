@@ -25,8 +25,9 @@ There are two ways to use the code, one is by creating a docker image and the ot
 - Install nuplan-devkit=0.1.0
     - Clone nuplan-devkit `git clone https://github.com/motional/nuplan-devkit.git`
     - Checkout commit `3c4f5b8dcd517b27cfd258915ca5fe5c54e3cb0c` for the appropriate version
-    - Comment out pytorch related requirements (`torch==*` and `torchvision*`), they throw an error and are not necessary
+    - Comment out pytorch related requirements (`torch==*` and `torchvision*`) from `requirements.txt`, they throw an error and are not necessary
     - run `pip install -e .` 
+    - run `pip install protobuf==3.20.0`
 - `conda install -c conda-forge firefox geckodriver`
 - Navigate back to this repo and `pip install -r requirements.txt`
 - Upgrade pathos to 0.2.9: `pip install pathos==0.2.9`
